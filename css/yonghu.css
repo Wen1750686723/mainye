@@ -1,0 +1,364 @@
+.content {
+width: 900px;
+height: auto;
+margin: 0 auto;
+position: relative;
+padding-top: 127px;
+clear: both;
+overflow: hidden;
+}
+.controls{
+	width: 202px;
+	height: 857px;
+	float: left;
+	margin: 0;
+	background: url(../img/controlsBg.png) no-repeat;
+}
+.controls .userFace{
+	width: 149px;
+	height: 149px;
+	position: relative;
+	margin: 9px auto 0 auto;
+	background-color: #000;
+	overflow: hidden;
+}
+.controls .userFace .faceBoxOn{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+.controls .userNames{
+	width: 149px;
+	height: 24px;
+	line-height: 24px;
+	position: relative;
+	margin: 4px auto 0 auto;
+}
+.controls .userNames .name{
+	width: auto;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	color: #9e6f3b;
+	float: left;
+	margin-left: 21px;
+	font-weight: bold;
+}
+.controls .userNames .stars{
+	width: 59px;
+	height: 19px;
+	background: url(../img/userStarsBoxBg.png) no-repeat;
+	float: left;
+	margin-left: 5px;
+	font-size: 9px;
+	color: #fff;
+	line-height: 26px;
+	text-indent: 8px;
+	overflow: hidden;
+	position: relative;
+	letter-spacing: 0;
+}
+.controls .userNames .stars span{
+	width: 10px;
+	height: 9px;
+	display: block;
+	right: 8px;
+	top: 2px;
+	line-height: 9px;
+	text-align: center;
+	color: #b4b4b4;
+	font-size: 8px;
+	position: absolute;
+}
+.controls .timeAndWhere{
+	width: 149px;
+	height: 12px;
+	line-height: 12px;
+	font-size: 12px;
+	color: #9e6f3b;
+	margin: 14px auto 0 auto;
+	text-align: center;
+}
+.controls .changeDocs{
+	width: 149px;
+	height: 12px;
+	line-height: 12px;
+	font-size: 12px;
+	color: #9e6f3b;
+	margin: 6px auto 0 auto;
+	text-align: center;
+	display: block;
+}
+.controls .fansBox{
+	width: 149px;
+	height: 16px;
+	line-height: 14px;
+	margin: 10px auto 0 auto;
+	text-align: center;
+	color: #9e6f3b;
+	padding: 9px 0 8px 0;
+	border-top: 1px solid #9e6f3b;
+	border-bottom: 1px solid #9e6f3b;
+}
+.controls .fansBox span{
+	font-size: 16px;
+	font-weight: bold;
+}
+.controls .fansBox span.colspan{
+	padding-left: 16px;
+}
+.controls .controlLists{
+	width: 149px;
+	height: auto;
+	margin: 3px auto 0 auto;
+}
+.controls .controlLists a, .controls .controlLists a:link, .controls .controlLists a:visited{
+	width: 149px;
+	height: 33px;
+	line-height: 33px;
+	border-bottom: 1px solid #9B9B8C;
+	display: block;
+	text-indent: 38px;
+	color: #9e6f3b;
+	font-size: 13px;
+}
+.controls .controlLists li:hover{
+	background: url(../img/user_op_hover_bg.png) no-repeat center;
+}
+.controls .controlLists .putIcons{
+	width: 33px;
+	height: 14px;
+	background: url(../_image/controlsPutIcon.png) no-repeat;
+	line-height: 14px;
+	text-align: center;
+	font-size: 12px;
+	float: right;
+	text-indent: 0;
+	margin-top: 9px;
+	margin-right: 17px;
+	font-size: 10px;
+	color: #fff;
+}
+.controls .controlLists a.c1{ background: url(../_image/listIcons1.png) no-repeat 10px 7px; }
+.controls .controlLists a.c2{ background: url(../_image/listIcons2.png) no-repeat 10px 7px; }
+.controls .controlLists a.c3{ background: url(../_image/listIcons3.png) no-repeat 10px 7px; }
+.controls .controlLists a.c4{ background: url(../_image/listIcons4.png) no-repeat 10px 7px; }
+.controls .controlLists a.c5{ background: url(../_image/listIcons5.png) no-repeat 10px 7px; }
+.controls .controlLists a.c6{ background: url(../_image/listIcons6.png) no-repeat 10px 7px; }
+.controls .controlLists a.c7{ background: url(../_image/listIcons7.png) no-repeat 10px 7px; }
+.controls .controlLists a.c8{ background: url(../_image/listIcons8.png) no-repeat 10px 7px; border-bottom: none; }
+.controls .serviceBox{
+	width: 149px;
+	height: 83px;
+	margin: 0 auto;
+	border-top: 2px solid #9E6F3B;
+	border-bottom: 2px solid #9E6F3B;
+	position: relative;
+}
+.controls .serviceBox .textTag{
+	width: 149px;
+	height: 12px;
+	line-height: 12px;
+	color: #9e6f3b;
+	position: absolute;
+	top: 19px;
+	left: 3px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.controls .serviceBox .shareGrp{
+	width: 149px;
+	height: 28px;
+	position: absolute;
+	left: 0;
+	top: 40px;
+}
+.controls .serviceBox .shareGrp .wxqr{
+	width: 149px;
+	height: 149px;
+	position: absolute;
+	left: 0;
+	top: -175px;
+	display: none;
+}
+.controls .serviceBox .shareGrp a{
+	width: 28px;
+	height: 28px;
+	float: left;
+	margin: 0 4px;
+	display: block;
+	background-image: url(../_image/controlsShares.png);
+	background-repeat: no-repeat;
+	background-position: 0 top;
+}
+.controls .serviceBox .shareGrp a.s2{ background-position: -28px top; }
+.controls .serviceBox .shareGrp a.s3{ background-position: -56px top; }
+.controls .serviceBox .shareGrp a.s4{ background-position: -84px top; display: none; }
+.controls .serviceBox .shareGrp a.s1:hover{ background-position: 0 bottom; }
+.controls .serviceBox .shareGrp a.s2:hover{ background-position: -28px bottom; }
+.controls .serviceBox .shareGrp a.s3:hover{ background-position: -56px bottom; }
+.controls .serviceBox .shareGrp a.s4:hover{ background-position: -84px bottom; }
+.controls .mySisters{
+	width: 149px;
+	height: 12px;
+	line-height: 12px;
+	color: #9e6f3b;
+	font-weight: bold;
+	font-size: 12px;
+	margin: 16px auto 0 auto;
+}
+.controls .fansBoxUnder{
+	width: 149px;
+	height: 12px;
+	line-height: 12px;
+	margin: 11px auto 0 auto;
+	color: #9e6f3b;
+	font-size: 12px;
+}
+.controls .fansBoxUnder span{
+	padding-left: 5px;
+}
+.controls .fansBoxUnder span.colspan{
+	padding-left: 16px;
+}
+.controls .sisterLists{
+	width: 149px;
+	height: 32px;
+	margin: 11px auto 0 auto;
+}
+.controls .sisterLists a{
+	width: 32px;
+	height: 32px;
+	position: relative;
+	display: inline-block;
+}
+.controls .sisterLists a div{
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(../img/focus/mysister.png) no-repeat;
+	z-index: 5;
+}
+.controls .findSames{
+	width: 149px;
+	height: 12px;
+	line-height: 12px;
+	color: #9e6f3b;
+	font-weight: bold;
+	margin: 19px auto 0 auto;
+	font-size: 12px;
+}
+.controls .rollSisters{
+	width: 155px;
+	height: 73px;
+	margin: 10px 0 0 26px;
+	position: relative;
+	overflow: hidden;
+}
+.controls .rollSisters ul{
+	width: 775px;
+	height: 52px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.controls .rollSisters ul li{
+	width: 155px;
+	height: 52px;
+	float: left;
+	position: relative;
+}
+.controls .rollSisters ul li .userImg{
+	width: 52px;
+	height: 52px;
+	display: block;
+	float: left;
+	position: relative;
+}
+.controls .rollSisters ul li .userImg img{
+	width: 52px;
+	height: 52px;
+}
+.controls .rollSisters ul li .userImg div{
+	width: 52px;
+	height: 52px;
+	background: url(../_image/sister1.png) no-repeat;
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	left: 0;
+}
+.controls .rollSisters ul li .name{
+	width: 95px;
+	height: 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.controls .rollSisters ul li span{
+	width: auto;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #9e6f3b;
+	display: block;
+	float: left;
+}
+.controls .rollSisters ul li .name img{
+	display: block;
+	float: left;
+	margin: 4px 0 0 4px;
+}
+.controls .rollSisters ul li .ps{
+	width: 95px;
+	height: 18px;
+	line-height: 18px;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	font-size: 12px;
+	color: #9e6f3b;
+}
+.controls .rollSisters ul li .ps.fans{ top: 38px; }
+
+.controls .rollSisters .rollIcons{
+	width: 155px;
+	height: 12px;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+}
+.controls .rollSisters .rollIcons .icon{
+	width: 12px;
+	height: 12px;
+	float: left;
+	background: url(../_image/rollIcons.png) no-repeat 0;
+	cursor: pointer;
+}
+.controls .rollSisters .rollIcons .icon.right{
+	width: 12px;
+	height: 12px;
+	float: left;
+	background: url(../_image/rollIcons.png) no-repeat -12px;
+}
+.controls .rollSisters .rollIcons .icos{
+	width: auto;
+	height: 12px;
+	float: left;
+	margin: 0 20px;
+}
+.controls .rollSisters .rollIcons .icos .onei{
+	width: 12px;
+	height: 12px;
+	background: url(../image/rollIcons.png) no-repeat -24px;
+	float: left;
+	margin: 0 3px;
+	cursor: pointer;
+}
+.controls .rollSisters .rollIcons .icos .onei.on{
+	background: url(../_image/rollIcons.png) no-repeat -36px;
+}
